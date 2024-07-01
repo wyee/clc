@@ -1,0 +1,10 @@
+header {
+    background-color: #132030;
+    color: #fff;
+}
+
+header section {
+    padding: 15px;
+    text-align: right;
+    text-transform: uppercase;
+}
