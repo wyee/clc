@@ -1,3 +1,13 @@
-body {
-    margin: 0;
+@font-face {
+    font-family: "Fraunces-light";
+    src:
+            local("Fraunces"),
+            url("../font/Fraunces/static/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: Fraunces-light;
 }
