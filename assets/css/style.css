@@ -2,15 +2,24 @@
     line-height: 35.2px;
 }
 
-h1 {
-    line-height: 88px;
+img.w-full {
+    height: 800px;
 }
 
 .button {
     padding: 12px 22px;
 }
 
-img {
-    height: 481px;
-    width: auto;
-}
+/*.grey {*/
+/*    !* light grey *!*/
+/*    background-color: #F9F9F9;*/
+/*    padding: 35px 75px ;*/
+/*}*/
+
+/*.content-end {*/
+/*    align-items: end;*/
+/*}*/
+
+/*.overflow-hidden {*/
+/*    overflow: hidden;*/
+/*}*/

@@ -99,44 +99,172 @@
     </nav>
     <hr class="container mx-auto">
 </header>
+<div class="container mx-auto px-4">
+    <section class="grid grid-cols-2 gap-4 my-12 justify-items-end content-end">
+        <div class="clinical-advisory">
+            <h1 class="font-fraunces font-light text-7xl mb-2">Your Partner for Clinical Advisory.</h1>
+        </div>
+<!--        <img src="/assets/img/dog-23.jpg" alt="hero image">-->
+        <div class="">
+            <p class="font-montserrat font-light text-2xl content-center">Clinical Legal Consultants is your partner when face with
+                regulatory
+                or contractual hurdles for
+                the development of safe and effective products
+            </p>
+        </div>
+    </section>
+</div>
+<section>
+    <img class="w-full" src="/assets/img/tsx.jpg" alt="hero image">
+</section>
+<section class="py-10 bg-light-orange">
+    <ul class="container mx-auto px-4 grid grid-cols-4 gap-4 my-2">
+        <li><img src="/assets/img/logos/nirastate.svg" alt="Nirastate company logo"></li>
+        <li><img src="/assets/img/logos/asgardia.svg" alt="Asgardia company logo"></li>
+        <li><img src="/assets/img/logos/hooks.svg" alt="Hooks company logo"></li>
+        <li><img src="/assets/img/logos/circle.svg" alt="Circle company logo"></li>
+    </ul>
+</section>
 
-<footer class="bg-navy">
-    <div class="container mx-auto overflow-hidden">
-        <hr class="bg-pearl-white opacity-10 my-12">
-        <div class="footer-top">
-            <section class="footer-logo">
-                <img src="/assets/img/logos/footer-logo.png"/>
-            </section>
-            <section>
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="social-media">
-                <ul>
-                    <li>Linedin</li>
-                    <li>Twitter</li>
-                    <li>Contact</li>
-                </ul>
-            </section>
-        </div>
-        <hr class="bg-pearl-white opacity-10 my-12">
-        <div class="footer-bottom">
-            <section>
-                <!-- This should be automated -->
-                &copy; 2024
-            </section>
-        </div>
-        <div class="footer-links">
+<div class="container mx-auto px-4">
+    <section class="grid grid-cols-2 gap-4 my-1">
+        <img src="/assets/img/dog-24.jpg" alt="hero image">
+
+        <div class="grey">
+            <h2 class="font-fraunces font-light text-6xl mb-2">Experienced Life Sciences Attorney.</h2>
+            <p class="font-montserrat text-base">Lorem ipsum dolor sit amet consectetur. Id massa euismod adipiscing ac fames. Enim urna quam duis et
+                pretium consectetur. Sit consequat aliquam mauris malesuada vel morbi quisque porttitor nunc. Aliquet
+                donec cras ultrices porta. Massa viverra lacinia id neque in amet. Aliquam pulvinar purus sed non velit
+                egestas. Urna nisi maecenas porttitor neque gravida adipiscing. Commodo risus quis elit rhoncus facilisi
+                mattis dui ut nibh. Quis arcu convallis quis sodales. Non tristique at vitae mollis. Turpis arcu at amet
+                pharetra eleifend blandit. Sollicitudin.</p>
+
+            <div class="expertise">
+                <span class="uppercase">Areas of expertise</span>
+                <hr>
+            </div>
+
             <ul>
-                <li>Link</li>
-                <li>Privacy</li>
+                <li>Clinical Trial Agreements & Optimization</li>
+                <li>Pharmaceutical Law</li>
+                <li>Medical Device Law</li>
+                <li>Contract Review & Negotiation</li>
+                <li>Regulatory Affairs</li>
             </ul>
         </div>
+    </section>
+
+
+    <section class="grid grid-cols-2 gap-4 my-12">
+        <div class="content-left">
+            <h2 class="text-6xl">Effective Legal Solutions</h2>
+        </div>
+        <div class="content-right">
+            <p>Clinical Legal Consultants is dedicated to providing innovative and effective legal solutions tailored
+                to meet the unique needs of each client. With expertise in the life sciences and pharmaceutical
+                agreements, CLC strives to deliver exceptional service and expertise.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Diam gravida viverra interdum
+                integer nunc phasellus urna justo. Enim nulla libero in dignissim. Iaculis vel
+                lectus non tellus feugiat enim in turpis augue. Velit varius et sollicitudin
+                laoreet urna. Urna potenti ante elementum sagittis fames. Aenean curabitur
+                nec neque urna varius vel vehicula pellentesque volutpat. Elit rhoncus amet
+                fringilla ut. Mauris viverra fringilla dictum dignissim varius nisl id. Enim.
+            </p>
+        </div>
+    </section>
+    <section class="grid grid-cols-3 gap-4 ">
+        <div class="bg-black-pearl text-white py-2 px-2">
+            <div class="card-icon">Icon</div>
+            <div class="card-title">Service 1</div>
+            <div class="card-text">
+                <p>Lorem ipsum dolor sit amet
+                    consectetur. Cursus tortor ut
+                    tristique mauris. Placerat sed
+                    ornare tempus pulvinar.
+                    Vestibulum facilisi nec in placerat.
+                </p>
+            </div>
+        </div>
+        <div class="bg-black-pearl text-white py-2 px-2">
+            <div class="card-icon">Icon</div>
+            <div class="card-title">Service 2</div>
+            <div class="card-text">
+                <p>Lorem ipsum dolor sit amet
+                    consectetur. Cursus tortor ut
+                    tristique mauris. Placerat sed
+                    ornare tempus pulvinar.
+                    Vestibulum facilisi nec in placerat.
+                </p>
+            </div>
+        </div>
+        <div class="bg-black-pearl text-white py-2 px-2">
+            <div class="card-icon">Icon</div>
+            <div class="card-title">Service 3</div>
+            <div class="card-text">
+                <p>Lorem ipsum dolor sit amet
+                    consectetur. Cursus tortor ut
+                    tristique mauris. Placerat sed
+                    ornare tempus pulvinar.
+                    Vestibulum facilisi nec in placerat.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="two-col">
+        <div class="content-left">
+            <!-- placeholder for quote-->
+            <span>"</span>
+            <h3>Exceptional service that exceeded expectations.</h3>
+            <p>Working with Jacquelyn was a game changer for getting
+                our clinical trial agreements going. Her exceptional legal
+                service exceeded our expectations in every aspect. We
+                highly recommend CLC s expertise.
+            </p>
+            <div class="testimonial">
+                <p>John Smith</p>
+                <span>Medical Device Professional</span>
+            </div>
+        </div>
+        <div class="content-right">
+            <p>Image here</p>
+        </div>
+    </section>
+</div>
+<footer>
+    <div class="footer-top">
+        <section class="footer-logo">
+            <p>Logo Here</p>
+        </section>
+        <section>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </nav>
+        </section>
+        <section class="social-media">
+            <ul>
+                <li>Linedin</li>
+                <li>Twitter</li>
+                <li>Contact</li>
+            </ul>
+        </section>
+    </div>
+    <div class="footer-bottom">
+        <section>
+            <!-- This should be automated -->
+            &copy; 2024
+        </section>
+    </div>
+    <div class="footer-links">
+        <ul>
+            <li>Link</li>
+            <li>Privacy</li>
+        </ul>
     </div>
 </footer>
 </body>
