@@ -5,6 +5,7 @@ const plugin = require('tailwindcss/plugin');
 
 module.exports = {
     content: ["./assets/**/*.js", '*.html'],
+    corePlugins: ['margin', 'padding'],
     plugins: {
         'postcss-import': {},
         tailwindcss: {},
@@ -46,6 +47,9 @@ module.exports = {
                     'lg': '1440px',
                     // => @media (min-width: 1440px) { ... }
                 },
+            },
+            gridTemplateColumns: {
+                '3': 'repeat(3, minmax(0, 1fr))',
             },
             plugins: [
                 plugin(function ({addComponents}) {
