@@ -5,21 +5,12 @@ const plugin = require('tailwindcss/plugin');
 
 module.exports = {
     content: ["./assets/**/*.js", '*.html'],
-    plugins: {
-        'postcss-import': {},
-        tailwindcss: {},
-        autoprefixer: {},
-        margin: {},
-        padding: {},
-        text: {},
-    },
     theme: {
         extend: {
             colors: {
                 'black-pearl': '#132030',
                 'catalina-blue': '#183460',
                 'celestial-blue': '#5199d3',
-                // 'light-orange': '#f9e1de',
                 'light-orange': '#f5cac4',
                 'tea-rose': '#f5cac4',
                 'tea-rose-45': 'rgba(245, 202, 196, 0.45)',
@@ -35,7 +26,6 @@ module.exports = {
                 'black-pearl': '#132030',
                 'catalina-blue': '#183460',
                 'celestial-blue': '#5199d3',
-                // 'light-orange': '#f9e1de',
                 'light-orange': '#f5cac4',
                 'light-gray': '#f9f9f9',
                 'tea-rose': '#f5cac4',
