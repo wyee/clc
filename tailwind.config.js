@@ -22,6 +22,7 @@ module.exports = {
                 // 'light-orange': '#f9e1de',
                 'light-orange': '#f5cac4',
                 'tea-rose': '#f5cac4',
+                'tea-rose-45': 'rgba(245, 202, 196, 0.45)',
                 'fuchsia-rose': '#ff4c0d',
                 'nero':  '#242424',
                 'alabaster': '#ecebe4',
@@ -37,6 +38,7 @@ module.exports = {
                 // 'light-orange': '#f9e1de',
                 'light-orange': '#f5cac4',
                 'tea-rose': '#f5cac4',
+                'tea-rose-45': 'rgba(245, 202, 196, 0.45)',
                 'fuchsia-rose': '#ff4c0d',
                 'nero':  '#242424',
                 'alabaster': '#ecebe4',
@@ -68,6 +70,10 @@ module.exports = {
             },
             maxWidth: {
                 '600': '37.5rem',
+            },
+            padding: {
+              '70': '70px',
+              '80': '80px',
             },
             gridTemplateColumns: {
                 '3': 'repeat(3, minmax(0, 1fr))',

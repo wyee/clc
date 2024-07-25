@@ -32,6 +32,9 @@
     z-index: -1;
 }
 
+.list-line {
+    border-bottom: 1px solid rgba(36, 76, 138, 0.25);
+}
 
 /*.grey {*/
 /*    !* light grey *!*/
