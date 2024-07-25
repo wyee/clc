@@ -37,6 +37,7 @@ module.exports = {
                 'celestial-blue': '#5199d3',
                 // 'light-orange': '#f9e1de',
                 'light-orange': '#f5cac4',
+                'light-gray': '#f9f9f9',
                 'tea-rose': '#f5cac4',
                 'tea-rose-45': 'rgba(245, 202, 196, 0.45)',
                 'fuchsia-rose': '#ff4c0d',
