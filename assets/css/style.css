@@ -2,13 +2,36 @@
     line-height: 35.2px;
 }
 
-img.w-full {
-    height: 800px;
+.img-radius {
+    border-top-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
 }
 
 .button {
     padding: 12px 22px;
 }
+
+.line {
+    position: relative;
+}
+
+.line span {
+    background-color: #fff;
+    padding-right: 10px;
+}
+
+.line:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 8px;
+    border-top: 1px solid #244c8a;
+    opacity: 0.25;
+    z-index: -1;
+}
+
 
 /*.grey {*/
 /*    !* light grey *!*/

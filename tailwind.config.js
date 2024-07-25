@@ -11,9 +11,25 @@ module.exports = {
         autoprefixer: {},
         margin: {},
         padding: {},
+        text: {},
     },
     theme: {
         extend: {
+            colors: {
+                'black-pearl': '#132030',
+                'catalina-blue': '#183460',
+                'celestial-blue': '#5199d3',
+                // 'light-orange': '#f9e1de',
+                'light-orange': '#f5cac4',
+                'tea-rose': '#f5cac4',
+                'fuchsia-rose': '#ff4c0d',
+                'nero':  '#242424',
+                'alabaster': '#ecebe4',
+                'onyx': '#424242',
+                'kellyish-green': '#55a330',
+                'navy': '#244c8a',
+                'pearl-white': '#f6f5f1'
+            },
             backgroundColor: {
                 'black-pearl': '#132030',
                 'catalina-blue': '#183460',
@@ -49,6 +65,9 @@ module.exports = {
                     'lg': '1440px',
                     // => @media (min-width: 1440px) { ... }
                 },
+            },
+            maxWidth: {
+                '600': '37.5rem',
             },
             gridTemplateColumns: {
                 '3': 'repeat(3, minmax(0, 1fr))',
